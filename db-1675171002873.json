@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "title": "babbage",
+      "description": "coding in Ai"
+    },
+    {
+      "title": "ada",
+      "description": "coding in gpt"
+    },
+    {
+      "title": "xxl",
+      "description": "coding in xxl"
+    }
+  ]
+}

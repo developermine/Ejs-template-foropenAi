@@ -1,0 +1,2 @@
+Copyright (c) 2022 Rash_Ozman
+Anyone is allowed to use, copy, modify, merge, publish, distribute, sublicense and/or sell copies of the Software created by Rash in 2022 without any restrictions. This permission notice and the copyright notice must be included in all or substantial parts of the Software. The Software is provided "as is" without any warranties of any kind, express or implied. The authors or copyright holders are not responsible for any claims, damages or other liabilities arising from the use of the Software.

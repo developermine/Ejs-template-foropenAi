@@ -1,0 +1,47 @@
+ 
+        <%- include('./partials/head.ejs') %>
+ 
+ <body>
+    <div id="app">
+        <aside class="sidemenu">
+            <div id="clear" class='side-menu-button'>
+            <span>*</span>
+            clear Chat
+            </div>
+            <div class="models">
+              <select id="currentEngine">
+                <% if (models.length > 0) { %>
+                    <% models.forEach(model => { %>
+                      <option>
+                        <%= model.id %>
+                      </option>
+                    <% }) %>
+                  <% } %>
+              </select>
+            </div>
+            <div class="lang">
+                <select name="" id="">
+                    <option value="">eng</option>
+                    <option value="">french</option>
+                    <option value="">yoruba</option>
+                    <option value="">hausa</option>
+                    <option value="">igbo</option>
+                </select>
+            </div>
+        </aside>
+        <section class="chat_box">
+                <div id="chat_container"></div>
+
+            <div class='chat-input-holder'>    
+            <form>
+                <input class="chat-input-input" name="prompt" rows="1" placeholder="Ask Ozman..."></input>
+                <button class="btn"><i class="fa fa-send"></i> Send</button>
+            </form>
+            </div>
+     </section>
+    </div> 
+    </div>
+    <script src="chat.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
